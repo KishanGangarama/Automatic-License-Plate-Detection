@@ -1,4 +1,4 @@
-                Automatic License Plate Detection using YOLOv5 and OCR
+Automatic License Plate Detection using YOLOv5 and OCR
 
 Abstract
 In the realm of intelligent transportation systems, the automatic recognition of vehicle license plates 
