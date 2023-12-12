@@ -1,4 +1,4 @@
-Automatic License Plate Detection using YOLOv5 and OCR
+                Automatic License Plate Detection using YOLOv5 and OCR
 
 Abstract
 In the realm of intelligent transportation systems, the automatic recognition of vehicle license plates 
@@ -238,7 +238,7 @@ training process.
   precision staying at 1 (100%) until recall begins to decline. This indicates that the model is
   exceptionally precise until it begins to miss some ground truth instances.
 
-
+![Precision-Confidence Curve](https://github.com/KishanGangarama/Automatic-License-Plate-Detection/assets/112736041/9bcdb92f-5e6c-4df8-9069-ffc7c588386b)
 
 • F1-Confidence Curve: The F1 score remains high across confidence thresholds until it steeply
   drops, suggesting that there is a threshold of confidence below which the F1 score (the
@@ -251,7 +251,7 @@ training process.
   confidence levels before dropping, indicating that the model can recall all positive samples up to
   a certain confidence level.
 
-
+![Recall-Confidence Curve](https://github.com/KishanGangarama/Automatic-License-Plate-Detection/assets/112736041/cb0ce02c-dd1d-40cd-8642-1b0bd63c84c8)
 
 • Confusion Matrix: The confusion matrix demonstrates an excellent true positive rate for
   number plate detection, with very few false positives or false negatives.
