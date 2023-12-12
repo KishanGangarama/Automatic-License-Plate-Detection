@@ -281,15 +281,19 @@ observed that could impact the applicability of the system in real-world scenari
 • Lighting Conditions: The model's performance was sometimes compromised under poor lighting
   conditions. License plates that were underexposed or overexposed due to the lighting could not
   be detected with the same accuracy as those in well-lit conditions.
+  
 • Obstructions: Physical obstructions such as dirt, stickers, or covers on license plates led to
   incomplete detections or incorrect OCR results. These real-world occurrences pose a significant
   challenge for maintaining high levels of accuracy.
+  
 • Font Variations: Unusual or stylized fonts used on some license plates were harder for the OCR
   to interpret correctly. The model sometimes mistook letters for numbers or vice versa, which
   could lead to incorrect identification.
+  
 • Angle and Distance: Plates captured at extreme angles or from long distances were more
   challenging to detect and recognize, indicating the need for a more robust solution to handle
   such cases.
+  
 • Hyperparameter Tuning: Selecting the appropriate hyperparameters for the model was a
   challenging task. The balance between learning rate, batch size, and other factors required
   careful tuning to prevent issues such as slow convergence.
