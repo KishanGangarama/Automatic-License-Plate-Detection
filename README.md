@@ -255,7 +255,7 @@ training process.
 • Confusion Matrix: The confusion matrix demonstrates an excellent true positive rate for
   number plate detection, with very few false positives or false negatives.
 
-
+![Confusion Matrix](https://github.com/KishanGangarama/Automatic-License-Plate-Detection/assets/112736041/7d7cd692-7fab-4337-b126-bc4a2455e2b8)
 
 • Correlogram and Label Distribution: The correlogram and label distribution images would offer
   insights into the spread and relationship between different annotation dimensions (like
