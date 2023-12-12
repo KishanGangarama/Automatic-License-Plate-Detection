@@ -244,7 +244,7 @@ training process.
   harmonic mean of precision and recall) significantly worsens. This could be used to set a
   confidence threshold for detections in a production environment.
 
-
+![F1-Confidence Curve](https://github.com/KishanGangarama/Automatic-License-Plate-Detection/assets/112736041/0575ac21-abb1-4447-87aa-2339daeef1f7)
  
 • Recall-Confidence Curve: This curve shows that recall stays at 1 (100%) for a wide range of
   confidence levels before dropping, indicating that the model can recall all positive samples up to
