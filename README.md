@@ -262,8 +262,9 @@ training process.
   bounding box coordinates), which could further assist in understanding the model's
   performance characteristic. 
 
+![Labels Correlogram](https://github.com/KishanGangarama/Automatic-License-Plate-Detection/assets/112736041/b496de1f-e15a-4b2d-94d6-3c98214dd642)
 
-
+![Labels](https://github.com/KishanGangarama/Automatic-License-Plate-Detection/assets/112736041/c8aa2345-b463-4c20-8c10-898739504dbb)
 
 The model exhibits high levels of precision and recall, an excellent mAP across different IoU thresholds,
 and a consistent decrease in loss metrics. The performance visualizations suggest that the YOLOv5
