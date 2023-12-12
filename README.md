@@ -310,7 +310,7 @@ footage in real-time, which could address additional complexities such as variab
 blur, and shifting angles of view. These enhancements would be crucial for the application of the model
 in dynamic, real-world environments.
 
-References
+## References
 
 1. Y. Tang, C. Zhang, R. Gu, P. Li, and B. Yang, “Vehicle detection and recognition for intelligent
 traffic surveillance system,” Multimedia Tools and Applications, vol. 76, no. 4, pp. 5817–5832, 2025
