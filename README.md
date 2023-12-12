@@ -1,6 +1,7 @@
-Automatic License Plate Detection using YOLOv5 and OCR
+# Automatic License Plate Detection using YOLOv5 and OCR
 
-Abstract
+## Abstract
+
 In the realm of intelligent transportation systems, the automatic recognition of vehicle license plates 
 is a critical component for traffic management, law enforcement, and access control. This project presents 
 a robust solution for Automatic License Plate Detection (ALPD) using the cutting-edge YOLOv5 deep
@@ -18,7 +19,7 @@ reproducibility of our work. This report delineates the complete journey from co
 realization of the ALPD system, emphasizing the novel integration of YOLOv5 and OCR to address the
 challenges inherent in real-world license plate detection and recognition.
 
-Introduction
+## Introduction
 
 The rapid evolution of computer vision and deep learning has opened new frontiers in automated
 systems, with Automatic License Plate Detection (ALPD) emerging as a vital technology in the domain of
@@ -45,7 +46,7 @@ success. The report aims to provide a comprehensive understanding of the intrica
 systems and presents our findings and insights that could benefit future research and practical
 applications in the field.
 
-Methodology
+## Methodology
 
 The methodology for the Automatic License Plate Detection project is designed to seamlessly integrate
 the steps of image preprocessing, model training, license plate detection, and optical character
@@ -53,7 +54,7 @@ recognition (OCR) to establish a robust pipeline. The approach leverages the adv
 YOLOv5 for detection tasks and Tesseract OCR for character recognition. The following subsections
 detail each phase of the methodology.
 
-1. Dataset Acquisition and Preprocessing: The dataset, essential for training the detection
+1. Dataset Acquisition and Preprocessing:The dataset, essential for training the detection
    model, consists of 453 JPEG images with corresponding PASCAL VOC format annotations. This
    dataset was retrieved using Kaggle's API, ensuring easy reproducibility and accessibility.
    Preprocessing involved a series of steps to format the data appropriately for YOLOv5:
@@ -63,7 +64,7 @@ detail each phase of the methodology.
   • Splitting the dataset into training and validation sets using train_test_split from
     sklearn.model_selection to evaluate model performance on unseen data.
    
-2. Model Training: The YOLOv5 model was selected for its state-of-the-art performance in object
+3. Model Training: The YOLOv5 model was selected for its state-of-the-art performance in object
    detection tasks. The model training involved:
   • Cloning the YOLOv5 repository and installing all dependencies to ensure a consistent
     environment.
@@ -74,7 +75,7 @@ detail each phase of the methodology.
   • Executing the training script with the custom configurations to fine-tune the model on the
     license plate detection task.
 
-3. Detection and OCR: Post-training, the model's detection capabilities were utilized to identify
+4. Detection and OCR: Post-training, the model's detection capabilities were utilized to identify
    license plates in new images. The detected plates were then processed through an OCR pipeline:
   • The detection results, given in normalized coordinates, were scaled to the original image
     dimensions.
@@ -92,14 +93,14 @@ coherent pipeline, with the flexibility to process individual images or batches 
 pipeline represents the project's core technical workflow, leading to the results presented in the
 subsequent sections of this report.
 
-Dataset Overview
+## Dataset Overview
 
 The dataset used in this project comprises images of vehicles with visible license plates. The annotations
 are provided in PASCAL VOC format, which is a widely recognized standard for object detection datasets.
 Each annotation details the bounding box coordinates for the license plate within the image, ensuring
 that the model can be trained to focus on the relevant areas for detection.
 
-Composition and Annotation
+## Composition and Annotation
   • Total Files: The dataset contains 453 image files.
   • Format: Images are in JPEG format, with annotations in corresponding XML files.
   • Annotation Details: The XML annotation files include the location of the license plate within the
@@ -108,7 +109,7 @@ Composition and Annotation
     such as size, object class, and potentially occlusion and truncation information, although these
     latter aspects are not always used in training.
 
-Tools and Technologies
+## Tools and Technologies
 
 1. Programming Languages and Frameworks
   • Python: The primary programming language used for this project. Python's simplicity and
@@ -146,7 +147,7 @@ Tools and Technologies
   • Kaggle API: Used for downloading the license plate dataset directly from Kaggle. This
     streamlines the process of acquiring data for the project.
 
-Experiments
+## Experiments
 
 The experimentation phase of the project involved several critical steps, each contributing to the overall
 goal of detecting and recognizing license plate numbers from images. The process was carried out using
@@ -201,7 +202,7 @@ detailed description of the experiments conducted:
   • Challenges and Limitations: Issues such as misrecognitions due to poor lighting conditions,
     obstructions, or unusual font styles were noted.
 
-Results
+## Results
 
 The project's primary aim was to accurately detect and recognize license plate numbers from images.
 The YOLOv5 model was employed for detection and PyTesseract for Optical Character Recognition
@@ -272,7 +273,7 @@ and a consistent decrease in loss metrics. The performance visualizations sugges
 model, combined with the preprocessing steps and PyTesseract OCR, has resulted in a robust solution
 for detecting and recognizing license plates in images.
 
-Problems/Issues
+## Problems/Issues
 
 Throughout the project, while the model achieved high precision and recall metrics, several issues were
 observed that could impact the applicability of the system in real-world scenarios:
@@ -293,7 +294,7 @@ observed that could impact the applicability of the system in real-world scenari
   challenging task. The balance between learning rate, batch size, and other factors required
   careful tuning to prevent issues such as slow convergence.
 
-Conclusion
+## Conclusion
 
 The project has successfully showcased the efficacy of YOLOv5 and PyTesseract in detecting and
 recognizing license plates from static images, evidenced by the high precision, recall, and mean Average
